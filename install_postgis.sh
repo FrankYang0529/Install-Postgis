@@ -1,3 +1,4 @@
+sudo apt-get install gcc g++ make
 sudo apt-get install postgresql postgresql-contrib
 sudo apt-get install binutils libproj-dev gdal-bin
 
@@ -32,6 +33,4 @@ sudo make install
 cd ..
 
 # Postgis
-# sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
-# sudo apt-get update
-# sudo apt-get install postgis
+sudo apt-get install postgresql-9.3-postgis-2.1 postgis-doc
